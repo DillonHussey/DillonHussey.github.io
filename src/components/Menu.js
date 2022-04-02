@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-import { Nav, Container } from "react-bootstrap";
 import logo from '../images/react.svg';
+import {Container} from "react-bootstrap";
+// flex-column flex-md-row align-items-center p-2 px-md-1 mb-3 bg-white border-bottom box-shadow
+//d-flex align-items-center col-md-3 mb-md-0 mr-auto 
+//ml-md-3
 const Menu = () => {
   return (
     <Container>
@@ -8,30 +11,30 @@ const Menu = () => {
         
         <Link
           to="/aboutThisPrj"
-          className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
-        >
-        <img
-          alt="" 
-          src={logo}
-          width="30"
-          height="30"
-          className="d-flex align-items-center"
-        />
-          Dillon Hussey's Code Sharing Site
+          className="d-flex align-items-center text-dark p-2 text-decoration-none"
+          >
+          <img
+            alt="" 
+            src={logo}
+            width="30"
+            height="30"
+            className="d-flex align-items-center"
+          />
+            Dillon Hussey's Code Sharing
         </Link>
-        <Link to="/about" className="d-flex align-items-center text-dark text-decoration-none">
-                LinkedIn
-              </Link>
-        <Nav>
-           <div className="col-md-3 text-end"> 
-            <Link to="/aboutMe">
-              <button type="button" className="btn btn-outline-primary me-2">
-                About Me
-              </button>
-            </Link>
-          </div>
-          
-        </Nav>
+
+        <a target="_blank" href="https://www.linkedin.com/in/dillon-hussey-b85781224/" 
+        
+        rel="noreferrer"
+        className="d-flex align-items-center text-dark text-decoration-none">
+          LinkedIn
+        </a>
+        
+        <Link to="/aboutMe">
+          <button type="button" className="btn btn-outline-primary me-2">
+            About Me
+          </button>
+        </Link>
       </header>
     </Container>
   );
