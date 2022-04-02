@@ -1,32 +1,36 @@
 import { Link } from "react-router-dom";
 import { Nav, Container } from "react-bootstrap";
-
+import logo from '../images/react.svg';
 const Menu = () => {
   return (
     <Container>
-      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <header className="d-flex flex-wrap align-items-left justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        
         <Link
-          to="/"
+          to="/aboutThisPrj"
           className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
         >
-          Template
+        <img
+          alt="" 
+          src={logo}
+          width="30"
+          height="30"
+          className="d-flex align-items-center"
+        />
+          Dillon Hussey's Code Sharing Site
         </Link>
-        <Nav>
-          <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li>
-              <Link to="/about" className="nav-link px-2 link-secondary">
-                About
+        <Link to="/about" className="d-flex align-items-center text-dark text-decoration-none">
+                LinkedIn
               </Link>
-            </li>
-          </ul>
-
-          <div className="col-md-3 text-end">
-            <Link to="/">
+        <Nav>
+           <div className="col-md-3 text-end"> 
+            <Link to="/aboutMe">
               <button type="button" className="btn btn-outline-primary me-2">
-                Documentation
+                About Me
               </button>
             </Link>
           </div>
+          
         </Nav>
       </header>
     </Container>
