@@ -5,8 +5,10 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./layout/Layout";
 
 // pages
-import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
+import AboutMe from "./pages/AboutMe";
+
 import NotFound from "./pages/NotFound";
 
 
@@ -15,8 +17,10 @@ const App = () => {
     <Layout>
       <Container>
         <Routes>
-          <Route path="/" element={<Home />} exact />
-          <Route path="/aboutThisPrj" element={<About />} />
+          <Route path="/" element={<About />} exact />
+          <Route path="/about" element={<About />} />
+          <Route path="/aboutMe" element={<AboutMe />} />
+          <Route path="/projects" element={<Projects/>}/> 
           <Route element={<NotFound />} />
         </Routes>
       </Container>
