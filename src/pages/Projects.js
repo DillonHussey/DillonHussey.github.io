@@ -14,7 +14,8 @@ function importAll(dir) {
 
 
 /*TODO:
-  - Set up file sharing
+  - Set up file sharing (separate git repo)
+  - Write about projects
   - Write about me sections and instructions for use.
 */
 
