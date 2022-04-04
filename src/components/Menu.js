@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '../images/react.svg';
+import logo from '../images/coding.svg';
 import {Container} from "react-bootstrap";
 const Menu = () => {
   return (

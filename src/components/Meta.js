@@ -2,9 +2,11 @@ import { Helmet } from 'react-helmet'
 
 const Meta = ({ title }) => {
   return (
-    <Helmet>
+   
+    <Helmet className="text-left">
       <title>{title}</title>
     </Helmet>
+    
   )
 }
 

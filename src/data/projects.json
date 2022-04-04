@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Android App",
+        "description": "In this project i made an app about dogs that tells the user about employees dogs. It is written in Kotlin and cleanly uses layouts for nice presentation",
+        "imageNames" :["MENU-RXT.png", "react.svg", "react-bootstrap-starter.png", "coding.svg"],
+        "form": "www.google.com updated"
+        
+    },
+
+    {
+        "title": "JS App",
+        "description": "In this project i made an app about dogs that tells the user about employees dogs. It is written in Kotlin and cleanly uses layouts for nice presentation",
+        "imageNames" :["MENU-RXT.png", "react.svg", "react-bootstrap-starter.png"],
+        "form": "www.google.com updated"
+    },
+
+    {
+        "title": "Kotlin App",
+        "description": "In this project i made an app about dogs that tells the user about employees dogs. It is written in Kotlin and cleanly uses layouts for nice presentation",
+        "form": "www.google.com updated",
+        "imageNames" :["MENU-RXT.png", "react.svg", "react-bootstrap-starter.png"]
+    }
+]
