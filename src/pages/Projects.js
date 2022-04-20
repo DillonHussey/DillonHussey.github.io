@@ -11,14 +11,6 @@ function importAll(dir) {
   return images;
 }
 
-
-
-/*TODO:
-  - Set up file sharing (separate git repo)
-  - Write about projects
-  - Write about me sections and instructions for use.
-*/
-
 const Projects = () => {
 
   var projectsArr = require('../data/projects.json')
@@ -26,16 +18,11 @@ const Projects = () => {
   // page content
   const pageTitle = "Projects"
   const pageDescription = 'Here I will show all the projects'
-
-
- 
   const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
   
   projectsArr.forEach(prj => {
     prj.images = prj.imageNames.map(path => { return images[path]})
     })
- 
-  
 
   return (
     <div>
@@ -47,9 +34,7 @@ const Projects = () => {
         projectsArr.map(prj => {
        return  <Project prj={prj}/>
         })
-
-      }
-      
+      }    
     </div>
   )
 }

@@ -1,17 +1,7 @@
 import { Container, Card, Row, Col, Carousel, CarouselItem } from 'react-bootstrap'
 
 
-//<Card.Img variant="bottom" src={prj.image.default}/>
-//className='starter-template text-center mt-5'
-/*
-<img
-            alt="" 
-            src={prj.image.default}
-            height='250'
-            width='250'
-            className="d-flex align-items-center"
-          />
-*/
+
 const Project = ({prj}) => {
   //console.log(prj)
   return (
@@ -26,7 +16,7 @@ const Project = ({prj}) => {
           </Card.Text>
           </Col>
           <Col>
-          <Carousel interval={null} className="d-blcok align-items-center">
+          <Carousel interval={null} className="d-flex align-items-center carousel-dark">
             {
               prj.images.map(image => {
                 return <CarouselItem>
@@ -47,10 +37,10 @@ const Project = ({prj}) => {
           </Card.Body>
           
           <Card.Footer>
-         <a target="_blank" href={prj.form}
+         <a target="_blank" href={prj.private ? "codePolicy" : prj.form}
           rel="noreferrer"
         className="d-flex align-items-center text-dark text-decoration-none"
-        >see the code (opens google form to request deploy token)</a>
+        >{prj.private ? "see sharing policy" : "see the code" }</a>
         </Card.Footer>
         
       </Card>

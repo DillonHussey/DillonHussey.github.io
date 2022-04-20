@@ -17,7 +17,7 @@ const Menu = () => {
             height="30"
             className="d-flex align-items-center"
           />
-            Dillon Hussey's Code Sharing
+            Dillon Hussey's Portfolio
         </Link>
 
         <Link className="d-flex align-items-center text-dark text-decoration-none"
