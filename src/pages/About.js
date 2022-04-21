@@ -1,6 +1,15 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
+//Write up this page
+// Write up about me
+// Write code sharing policy page
+// Get images for Android projects.
+// Upload to github
+
+
+
+
 const About = () => {
   // page content
   const pageTitle = 'About'

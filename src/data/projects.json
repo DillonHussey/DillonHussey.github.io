@@ -1,7 +1,7 @@
 [
     {
         "title": "Code Sharing",
-        "description": "You are looking at this project right now! I started out of a react bootstrap boiler plate template to create a way for me to share the work I've done in my computer science studies. This project was made with React and implments tools like npm, Webpack, bootstrap, and many others. (Written in JS and uses React, bootstrap, Webpack ect.",
+        "description": "You are looking at this project right now! I made this site to share the work I've done in my computer science studies in a creative way. This project was made with React and implements tools like npm, Webpack, bootstrap, and many others. (Written in JS and uses React, bootstrap, Webpack ect.)",
         "imageNames" :["titleScreenShot.png", "metaScreenShot.png", "coding.svg"],
         "private": false,
         "form": "home"
@@ -9,7 +9,7 @@
 
     {
         "title": "Matrix Multiplication: Looptiling",
-        "description": "This program was an assignment designed to show the impact of writing code using cache optimiziation. It uses a technique called looptiling, which breaks a data set into manageable parts called tiles, and completes computations on that tile and moves on to the next one. The effect of looptiling is to drastically reduce the number of times data is read from memory, with is an expensive process. I cannot share picture of code, but shown right are the concepts. (Written in C and C++)",
+        "description": "This program was an assignment designed to show the impact of writing code using cache optimiziation. It uses a technique called looptiling, which breaks a data set into manageable parts called tiles, and completes computations on that tile and then moves on to the next one. The effect of looptiling is to drastically reduce the number of times data is read from memory, which is an expensive process. I cannot share pictures of the code, but shown right are the concepts. (Written in C and C++)",
         "imageNames" :["matrixMult.png", "cacheDiagram.png"],
         "private": true,
         "form": ""
@@ -20,7 +20,7 @@
         "description": "This is a collection of projects I have completed for my Mobile Development class. This class encouraged self-learning to prepare us for when we are in the workforce, so we taught ourselves from the android developer's guide, making their example projects to demonstrate what we know. (Written in Kotlin)",
         "form": "",
         "private": true,
-        "imageNames" :["PinballYoda.png", "PinballCode.png"]
+        "imageNames" :["DogglersSC.png", "WordSearchSC.png", "ConverterSC.png"]
     },
 
     {

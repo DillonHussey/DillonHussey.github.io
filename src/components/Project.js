@@ -20,6 +20,7 @@ const Project = ({prj}) => {
             {
               prj.images.map(image => {
                 return <CarouselItem>
+                 
                   <img
                     alt="" 
                     src={image.default}
