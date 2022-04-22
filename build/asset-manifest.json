@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac7d8ea3.chunk.css",
+    "main.js": "/static/js/main.cf0a2d55.chunk.js",
+    "main.js.map": "/static/js/main.cf0a2d55.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86ae890e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86ae890e.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.0a090992.chunk.js": "/static/js/2.0a090992.chunk.js",
+    "static/js/2.0a090992.chunk.js.map": "/static/js/2.0a090992.chunk.js.map",
+    "static/js/3.ab3bc80b.chunk.js": "/static/js/3.ab3bc80b.chunk.js",
+    "static/js/3.ab3bc80b.chunk.js.map": "/static/js/3.ab3bc80b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.ac7d8ea3.chunk.css.map": "/static/css/main.ac7d8ea3.chunk.css.map",
+    "static/js/2.0a090992.chunk.js.LICENSE.txt": "/static/js/2.0a090992.chunk.js.LICENSE.txt",
+    "static/media/ConverterSC.png": "/static/media/ConverterSC.54f0a062.png",
+    "static/media/DogglersSC.png": "/static/media/DogglersSC.79b9bf59.png",
+    "static/media/MENU-RXT.png": "/static/media/MENU-RXT.b68245d4.png",
+    "static/media/PinballCode.png": "/static/media/PinballCode.e276932f.png",
+    "static/media/PinballYoda.png": "/static/media/PinballYoda.cfe28a4a.png",
+    "static/media/WordSearchSC.png": "/static/media/WordSearchSC.bc812144.png",
+    "static/media/cacheDiagram.png": "/static/media/cacheDiagram.e85658f3.png",
+    "static/media/codeCoverage.png": "/static/media/codeCoverage.8f771164.png",
+    "static/media/codeCoverageIstanbul.png": "/static/media/codeCoverageIstanbul.a1a0359c.png",
+    "static/media/coding.svg": "/static/media/coding.9fee4464.svg",
+    "static/media/matrixMult.png": "/static/media/matrixMult.bf49a063.png",
+    "static/media/metaScreenShot.png": "/static/media/metaScreenShot.b8614d64.png",
+    "static/media/react-bootstrap-starter.png": "/static/media/react-bootstrap-starter.0855f93b.png",
+    "static/media/react.svg": "/static/media/react.e27571ea.svg",
+    "static/media/shoesBrewhaha.png": "/static/media/shoesBrewhaha.5abee7cc.png",
+    "static/media/testing1.png": "/static/media/testing1.1effefeb.png",
+    "static/media/titleScreenShot.png": "/static/media/titleScreenShot.a24ef8e5.png",
+    "static/media/tunnelBrewhaha.png": "/static/media/tunnelBrewhaha.396654e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86ae890e.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.0a090992.chunk.js",
+    "static/css/main.ac7d8ea3.chunk.css",
+    "static/js/main.cf0a2d55.chunk.js"
+  ]
+}
