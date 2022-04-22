@@ -4,7 +4,7 @@
         "description": "You are looking at this project right now! I made this site to share the work I've done in my computer science studies in a creative way. This project was made with React and implements tools like npm, Webpack, bootstrap, and many others. (Written in JS and uses React, bootstrap, Webpack ect.)",
         "imageNames" :["titleScreenShot.png", "metaScreenShot.png", "coding.svg"],
         "private": false,
-        "form": "home"
+        "form": "https://github.com/DillonHussey/DillonHussey.github.io/tree/master"
     },
 
     {
