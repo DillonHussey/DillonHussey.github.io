@@ -4,6 +4,9 @@ const Footer = () => {
     <>
       <footer className='text-center text-capitalize'>
         copyright Dillon Hussey &copy; {year}
+        <br></br>
+        Contact me on LinkedIn!
+        
       </footer>
     </>
   )

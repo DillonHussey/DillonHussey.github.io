@@ -38,7 +38,7 @@ const Project = ({prj}) => {
           </Card.Body>
           
           <Card.Footer>
-         <a target="_blank" href={prj.private ? "codePolicy" : prj.form}
+         <a target="_blank" href={prj.private ? "about" : prj.form}
           rel="noreferrer"
         className="d-flex align-items-center text-dark text-decoration-none"
         >{prj.private ? "see sharing policy" : "see the code" }</a>
