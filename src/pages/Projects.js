@@ -17,7 +17,7 @@ const Projects = () => {
   
   // page content
   const pageTitle = "Projects"
-  const pageDescription = 'Here I will show all the projects'
+  const pageDescription = ''
   const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
   
   projectsArr.forEach(prj => {

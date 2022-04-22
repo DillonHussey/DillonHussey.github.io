@@ -3,7 +3,6 @@ import Meta from '../components/Meta'
 
 // Process of converting from md to html is annoying so use CLI to convert and
 // html-loader added to webpack.config will convert
-//import file from "../data/AboutMe.html"
 
 const AboutMe = () => {
   // page content
@@ -21,15 +20,16 @@ I will constantly be learning a new skill and improving on what I already know.<
 <br></br>
 <h2 id="my-studies">My Studies</h2>
 <p>I will graduate from Principia College in the Spring of 2024 with majors in <b>Computer
-Science</b> and <b>Mathematics</b>, as well as minors in Business and Economics. My favorite
-classes so far have been Hardware Architecture and Software Architecture. Hardware 
-Architecture took a modular approach to building a computer, starting with combining
-simple NAND gates to create a useful component like a D-Flip Flop to use in the
-next project to build something more complex. This culminated in building an 8-bit
-computer. I helped lead software side for the computer and helped guide the other
-team understand how the hardware parts worked together. In Software Architecture
-I learned how the ARM ISA&#39;s operate, and used this knowledge, along with an 
-understanding of caching and Stackframes to write better and more efficient code.</p>
+Science</b> and <b>Mathematics</b>, as well as minors in Business and Economics. 
+My favorite classes so far have been Hardware Architecture and Software Architecture. 
+Hardware  Architecture took a modular approach to building a computer, starting 
+with combining simple NAND gates to create a useful component like a D-Flip Flop 
+to use in the next project to build something more complex. This culminated in 
+building an 8-bit computer. I led the software side, coding microinstructions 
+into memory and helped guide the hardware team understand how data was passed from
+one component to the next. In Software Architecture I learned how the ARM ISA&#39;s
+operate, and used this knowledge, along with an understanding of caching and 
+stackframes to write better and more efficient code.</p>
 <br></br>
 <h2 id="my-notable-experiences">My Notable Experiences</h2>
 <h3 id="work">Work</h3>
@@ -47,11 +47,10 @@ understanding of caching and Stackframes to write better and more efficient code
     </li>
 <li><h4 id="2019">2019 Summer Camp Counselor at Camp Owatonna</h4></li> 
 </ul>
-<h3 id="Awards">Athletics</h3>
+<h3 id="Awards">Awards</h3>
 <ul>
   <li> Congressional Award: Bronze Medal</li>
   <li> Princpia College Deans List</li>
-  <li> Ran Cross Country and Track in high schoool</li>
   </ul>
 <h3 id="athletics">Athletics</h3>
 <ul>
