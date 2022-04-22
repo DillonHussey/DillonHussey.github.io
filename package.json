@@ -1,8 +1,8 @@
 {
-  "name": "Dillon's Portfolio",
+  "name": "Portfolio",
   "version": "0.4.0",
   "private": true,
-  "homepage": "https://dillonhussey.github.io/",
+  "homepage": "https://dillonhussey.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.1.0",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/html build/404.html",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
