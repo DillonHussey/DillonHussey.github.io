@@ -1,14 +1,14 @@
 // components
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-
+import '../index.css'
 const Layout = ({ children }) => {
   return (
-    <>
-      <Menu />
+    <div className='d-flex flex-column min-vh-100'>
+      <Menu/>
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 

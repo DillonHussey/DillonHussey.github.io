@@ -13,7 +13,7 @@ const AboutMe = () => {
     <div>
       <Meta title={pageTitle}/>
       <Header head={pageTitle} description={pageDescription} />
-      <div style={{lineHeight:"2"}}>
+      <div style={{lineHeight:"2"}} className="text-secondary">
 <h2 id="why-i-code">Why I code</h2>
 <p>I enjoy computer science because I love learning. I know that as a software developer
 I will constantly be learning a new skill and improving on what I already know.</p>
@@ -36,7 +36,7 @@ stackframes to write better and more efficient code.</p>
 <ul>
    <li>
      <h4 id="summer2021">2021 Summer CSCI Research Assistant for Principia College</h4>
-    <ul><li>I helped develop an educational web app which can allow students to 
+    <ul><li>helped develop an educational web app which can allow students to 
     participate in Physics labs online.</li>
     <li>Tools used: React, Github, Redux, Webpack, Redux, Postman, CSS, SVGs, Java, 
     mySQL, npm, schemas, RESTful api</li>
@@ -50,7 +50,7 @@ stackframes to write better and more efficient code.</p>
 <h3 id="Awards">Awards</h3>
 <ul>
   <li> Congressional Award: Bronze Medal</li>
-  <li> Princpia College Deans List</li>
+  <li> Principia College Deans List</li>
   </ul>
 <h3 id="athletics">Athletics</h3>
 <ul>

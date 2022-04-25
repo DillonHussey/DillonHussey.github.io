@@ -1,17 +1,15 @@
 import { Container, Card, Row, Col, Carousel, CarouselItem } from 'react-bootstrap'
 
-
-
 const Project = ({prj}) => {
   //console.log(prj)
   return (
     <Container className="mt-5" >
       <Card>
-        <Card.Title className="p-2">{prj.title}</Card.Title>
+        <Card.Title className="p-2 text-secondary">{prj.title}</Card.Title>
         <Card.Body>
           <Row>
             <Col>
-          <Card.Text>
+          <Card.Text className='bg-lighter text-secondary'>
           {prj.description}
           </Card.Text>
           </Col>

@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
+//import style from '../index.css'
 
 const About = () => {
   // page content
@@ -11,7 +12,7 @@ const About = () => {
     <div>
       <Meta title={pageTitle}/>
       <Header head={pageTitle} description={pageDescription} />
-      <div style={{lineHeight:"2"}}><h2 id="what-is-this-site">What is this site?</h2>
+      <div style={{lineHeight:"2"}} className="text-secondary"><h2 id="what-is-this-site">What is this site?</h2>
 <p>This site is a portfolio of some of my computer science projects
 from the last few years.</p>
 <h2 id="code-sharing">Code Sharing Policy</h2>

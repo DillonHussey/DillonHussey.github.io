@@ -28,7 +28,7 @@ const Projects = () => {
     <div>
       <Meta title={pageTitle}/>
      
-      <Header head={pageTitle} description={pageDescription}/>
+      <Header head={pageTitle} description={pageDescription} className="text-secondary"/>
       
       {  
         projectsArr.map(prj => {

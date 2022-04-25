@@ -1,44 +1,38 @@
 import { Link } from "react-router-dom";
 import logo from '../images/coding.svg';
-import {Container} from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
+
+//className="d-flex flex-wrap align-items-left justify-content-center justify-content-md-between py-3 mb-4 border-bottom bg-danger"
 const Menu = () => {
   return (
-    <Container>
-      <header className="d-flex flex-wrap align-items-left justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        
-        <Link
-          to="/about"
-          className="d-flex align-items-center text-dark p-2 text-decoration-none"
-          >
+    <Navbar sticky="top" className="nav-fill w-100 navbar-dark bg-primary">
+        <Navbar.Brand href="/about">
           <img
             alt="" 
             src={logo}
             width="30"
             height="30"
-            className="d-flex align-items-center"
-          />
+            className="d-inline-block align-top"
+          />{' '}
             Dillon Hussey's Portfolio
-        </Link>
+          </Navbar.Brand> 
 
-        <Link className="d-flex align-items-center text-dark text-decoration-none"
-          to="/Projects"
-        >
-          Projects
-        </Link>
-        <a target="_blank" href="https://www.linkedin.com/in/dillon-hussey-b85781224/" 
-        
-        rel="noreferrer"
-        className="d-flex align-items-center text-dark text-decoration-none">
+        <Nav.Link className="d-flex align-items-center text-light"
+          href="/Projects">Projects</Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/dillon-hussey-b85781224/"
+        className="d-flex align-items-center text-light">
           LinkedIn
-        </a>
+        </Nav.Link>
         
-        <Link to="/aboutMe">
-          <button type="button" className="btn btn-outline-primary me-2">
+        <Nav.Item>
+          <Link to="/aboutMe">
+          <button type="button" className="btn btn-outline-tertiary me-2 text-tertiary">
             About Me
           </button>
         </Link>
-      </header>
-    </Container>
+        </Nav.Item>
+      
+    </Navbar>
   );
 };
 
