@@ -38,7 +38,7 @@ stackframes to write better and more efficient code.</p>
      <h4 id="summer2021">2021 Summer CSCI Research Assistant for Principia College</h4>
     <ul><li>helped develop an educational web app which can allow students to 
     participate in Physics labs online.</li>
-    <li>Tools used: React, Github, Redux, Webpack, Redux, Postman, CSS, SVGs, Java, 
+    <li>Tools used: React, Github, Redux, Webpack, Postman, CSS, SVGs, Java, 
     mySQL, npm, schemas, RESTful api</li>
     </ul>
     </li>
