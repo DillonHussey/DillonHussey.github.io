@@ -14,8 +14,10 @@ const Project = ({prj}) => {
           </Card.Text>
           </Col>
           <Col>
-          <Carousel interval={null} className="d-flex align-items-center carousel-dark">
-            {
+          {
+          prj.images.length > 1 ?
+            <Carousel interval={null} className="d-flex align-items-center carousel-dark">
+              {
               prj.images.map(image => {
                 return <CarouselItem>
                  
@@ -27,9 +29,17 @@ const Project = ({prj}) => {
                     className="d-flex align-items-center"
                   />
                 </CarouselItem>
-              })
+              }) 
             }
           </Carousel>
+          :  <img
+          alt="" 
+          src={prj.images[0].default}
+          height='350'
+          width='auto'
+          className="d-flex align-items-center"
+        />
+          }
           
           </Col>
           </Row>

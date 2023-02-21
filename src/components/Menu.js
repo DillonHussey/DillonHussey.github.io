@@ -19,7 +19,7 @@ const Menu = () => {
 
         <Nav.Link className="d-flex align-items-center text-light"
           href="/Projects">Projects</Nav.Link>
-        <Nav.Link href="https://www.linkedin.com/in/dillon-hussey-b85781224/"
+        <Nav.Link target='_blank' href="https://www.linkedin.com/in/dillon-hussey-b85781224/"
         className="d-flex align-items-center text-light">
           LinkedIn
         </Nav.Link>

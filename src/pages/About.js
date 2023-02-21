@@ -21,6 +21,8 @@ Github public is that some of the projects I&#39;ve worked on are still
 active assignments for classes. Making them public would harm the 
 academic process. Other projects I have worked on may be private because
 I do not own the code.</p></div>
+      <h2><a href='Projects'
+        >See the Projects!</a></h2>
     </div>
   )
 }
