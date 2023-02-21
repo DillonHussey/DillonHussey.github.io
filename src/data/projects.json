@@ -2,14 +2,14 @@
     
     {
         "title": "Expectation Maximization Clustering",
-        "description": "This was a two part project related to data science using bayesian logic for a classic classification problem. This method guesses that each class has a normal distribution of points and it uses test data to find the most likely clusters for a given point. One application of this method could be for classifying music into genres. Spotify for example gives several numerical properties to songs, and this would allow us to try to cluster them into specific genres and suggest music to a person if it is in the same genre. This project was coded in Python using the numpy library to compute math operations on large amounts of data efficiently.",
+        "description": "This data science project uses bayesian logic for a classic classification problem. This means that we use probability and statistics to guess which cluster each point is most likely to belong to, and from there we update where each cluster is centered. One application of this method could be for classifying music into genres. Spotify for example gives several numerical properties to songs, and this would allow us to try to cluster them into specific genres and suggest music to a person if it is in the same genre. This project was coded in Python using the numpy library to compute math operations on large amounts of data efficiently.",
         "imageNames" :["clustering.gif"],
         "private": true,
         "form": ""
     },
     {
         "title": "Itemsets",
-        "description": "This data science project analyzed relationships between itemsets. What does that mean? I used python and the pandas library to clean a long list of orders that had information on what user id bought the item, and with that, we can find patterns in the data. The specific pattern I found was based on confidence, which is not without its flaws a measurement, but other measurements can be easily substituted. The second image shows example output of my code from a very simple test example, showing that certain patterns of items bought will lead to another item being bought with a certain level of confidence.",
+        "description": "This data science project analyzed relationships between itemsets. What does that mean? I used python and the pandas library to clean a long list of orders that had information on what user id bought the item, and with that, we can find patterns in the data. A part of the data cleaning involved finding frequent itemsets and closed itemsets. To do this I implemented the Charm, Eclat, and DEclat algorithms. The specific pattern I found was based on confidence, which isn't perfect but other measurements can be easily substituted. The second image shows example output of my code from a very simple test example, showing that certain patterns of items bought will lead to another item being bought with a certain level of confidence.",
         "imageNames" :["itemsets.png", "assocRules.png"],
         "private": true,
         "form": ""
