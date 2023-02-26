@@ -15,6 +15,13 @@
         "form": ""
     },
     {
+        "title": "Notflix",
+        "description": "This is a simple streaming platform clone to demonstrate the skills I learned in my databases class. It is made with Embedded JavaScript (EJS) and JavaScript using Express, making requests to a SQL connection. The SQL database was accessed exclusively through Stored Procedures and all input data was sanitized for security. It was a fun project.",
+        "imageNames" :["Notflix.png"],
+        "private": true,
+        "form": ""
+    },
+    {
         "title": "Code Sharing",
         "description": "You are looking at this project right now! I made this site to share the work I've done in my computer science studies in a creative way. This project was made with React and implements tools like npm, Webpack, bootstrap, and many others. (Written in JS and uses React, bootstrap, Webpack ect.)",
         "imageNames" :["titleScreenShot.png", "metaScreenShot.png", "coding.svg"],
