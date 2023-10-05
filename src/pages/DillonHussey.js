@@ -21,6 +21,7 @@ return (
       </div>
       <div className='row'>
       <div style={{lineHeight:"2"}} className="text-secondary"><h2 id="what-is-this-site">What is this site?</h2>
+      <p>I am a Software Developer and Data Scientist open to work.</p>
       <p> Check out some of my projects from over the years. It includes projects from classes like Machine Learning,
         Data Science, Databases, and more.</p>
 
