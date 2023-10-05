@@ -6,7 +6,7 @@ import Layout from "./layout/Layout";
 
 // pages
 import Projects from "./pages/Projects";
-import About from "./pages/About";
+import DillonHussey from "./pages/DillonHussey";
 import AboutMe from "./pages/AboutMe";
 
 import NotFound from "./pages/NotFound";
@@ -17,8 +17,8 @@ const App = () => {
     <Layout>
       <Container>
         <Routes>
-          <Route path="/" element={<About />} exact />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<DillonHussey />} exact />
+          <Route path="/DillonHussey" element={<DillonHussey />} />
           <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/projects" element={<Projects/>}/> 
           <Route element={<NotFound />} />
